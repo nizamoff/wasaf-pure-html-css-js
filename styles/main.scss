@@ -1,0 +1,32 @@
+@import "normalize";
+@import "variables";
+@import "blocks/header";
+@import "blocks/hero";
+@import "blocks/services";
+@import "blocks/results";
+@import "blocks/portfolio";
+@import "blocks/partners";
+@import "blocks/contact";
+@import "blocks/footer";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $main-black;
+    color: $main-white;
+    font-family: 'Gilroy', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+

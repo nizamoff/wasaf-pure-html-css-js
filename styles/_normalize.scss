@@ -1,0 +1,16 @@
+@import 'variables';
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $main-gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $main-blue;
+}

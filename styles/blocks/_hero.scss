@@ -1,0 +1,66 @@
+.hero {
+    padding-top: 280px;
+    height: 100vh;
+    @media screen and (max-width: 576px) {
+        padding-top: 200px;
+    }
+    &__title {
+        color: $main-white;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 116px;
+        text-align: center;
+        @media screen and (max-width: 1400px) {
+            font-size: 72px;
+            line-height: 72px;
+        }
+        @media screen and (max-width: 777px) {
+            font-size: 48px;
+            line-height: 48px;
+        }
+        @media screen and (max-width: 576px){
+            font-size: 32px;
+            line-height: 32px;
+        }
+        span {
+            color: $main-blue;
+        }
+    }
+    &__bottom {
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 25px;
+        transform: translateX(-50%);
+        @media screen and (max-width: 1210px) {
+            transform: scale(0.6) translateX(-70%);
+
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 45%;
+            transform: translateY(-50%) translateX(-50%) rotate(-45deg);
+            z-index: 1000;
+            width: 10px;
+            height: 10px;
+            border: 2px solid $main-white;
+            border-top: 2px solid $main-black;
+            border-right: 2px solid $main-black;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+    }
+    &__circle__text {
+        animation: circle linear 10s infinite;
+        @keyframes circle {
+            from {
+                transform: rotate(0);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}

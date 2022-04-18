@@ -1,0 +1,227 @@
+.footer {
+    background-color: $main-gray;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    @media screen and(max-width: 1400px){
+        padding-top: 50px;
+    }
+    @media screen and(max-width: 576px) {
+        padding-top: 30px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 35px;
+        @media screen and(max-width: 1400px) {
+            padding-top: 30px;
+        }
+        @media screen and(max-width: 1200px) {
+            align-items: flex-start;
+        }
+        @media screen and(max-width: 400px) {
+            display: block;
+        }
+    }
+    &__left {
+        width: 20%;
+        @media screen and(max-width: 1000px) {
+            width: 100%;
+        }
+    }
+    &__right {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        @media screen and(max-width: 1000px) {
+            display: block;
+            width: 100%;
+        }
+    }
+    &__logo {
+        display: block;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: $main-blue;
+        margin-bottom: 20px;
+        @media screen and(max-width: 576px) {
+            margin-bottom: 10px;
+        }
+        @media screen and(max-width: 400px) {
+            text-align: center;
+        }
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 210px;
+        @media screen and(max-width: 576px) {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        @media screen and(max-width: 400px) {
+            text-align: center;
+            width: 100%;
+        }
+    }
+    &__location {
+        display: block;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: $main-white;
+        position: relative;
+        padding-left: 45px;
+        @media screen and(max-width: 1400px) {
+            font-size: 26px;
+            line-height: 30px;
+            padding-left: 30px;
+        }
+        @media screen and(max-width: 1000px) {
+            margin-bottom: 20px;
+        }
+        @media screen and(max-width: 769px) {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        @media screen and(max-width: 576px) {
+            font-size: 16px;
+            line-height: 19px;
+            padding-left: 25px;
+        }
+        @media screen and(max-width: 400px) {
+            text-align: center;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url('../../icons/location.svg');
+            width: 35px;
+            height: 35px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            left: 0;
+            @media screen and(max-width: 1400px) {
+                width: 25px;
+                height: 25px;
+            }
+            @media screen and(max-width: 576px) {
+                width: 20px;
+                height: 20px;
+            }
+            @media screen and(max-width: 400px) {
+                display: none;
+            }
+        }
+    }
+    &__mail {
+        display: block;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: $main-white;
+        position: relative;
+        padding-left: 45px;
+        @media screen and(max-width: 1400px) {
+            font-size: 26px;
+            line-height: 30px;
+            padding-left: 30px;
+        }
+        @media screen and(max-width: 1000px) {
+            margin-bottom: 20px;
+        }
+        @media screen and(max-width: 769px) {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        @media screen and(max-width: 576px) {
+            font-size: 16px;
+            line-height: 19px;
+            padding-left: 25px;
+        }
+        @media screen and(max-width: 400px) {
+            text-align: center;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url('../../icons/at.svg');
+            width: 35px;
+            height: 35px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            left: 0;
+            @media screen and(max-width: 1400px) {
+                width: 25px;
+                height: 25px;
+            }
+            @media screen and(max-width: 576px) {
+                width: 20px;
+                height: 20px;
+            }
+            @media screen and(max-width: 400px) {
+                display: none;
+            }
+        }
+    }
+    &__phone {
+        display: block;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: $main-white;
+        position: relative;
+        padding-left: 45px;
+        @media screen and(max-width: 1400px) {
+            font-size: 26px;
+            line-height: 30px;
+            padding-left: 30px;
+        }
+        @media screen and(max-width: 1000px) {
+            margin-bottom: 20px;
+        }
+        @media screen and(max-width: 769px) {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        @media screen and(max-width: 576px) {
+            font-size: 16px;
+            line-height: 19px;
+            padding-left: 25px;
+        }
+        @media screen and(max-width: 400px) {
+            text-align: center;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url('../../icons/phone.svg');
+            width: 35px;
+            height: 35px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            left: 0;
+            @media screen and(max-width: 1400px) {
+                width: 25px;
+                height: 25px;
+            }
+            @media screen and(max-width: 576px) {
+                width: 20px;
+                height: 20px;
+            }
+            @media screen and(max-width: 400px) {
+                display: none;
+            }
+        }
+    }
+    &__info {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+        text-align: center;
+    }
+}

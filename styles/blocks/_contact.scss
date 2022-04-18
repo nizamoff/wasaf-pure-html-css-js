@@ -1,0 +1,142 @@
+.contacts {
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 300px;
+    @media screen and (max-width: 1000px) {
+        display: block;
+    }
+    &__left {
+        margin-right: 40px;
+        @media screen and (max-width: 1200px) {
+           width: 50%;
+           margin-right: 0;
+        }
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 78px;
+        margin-bottom: 30px;
+        @media screen and (max-width: 1200px) {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        @media screen and (max-width: 1000px) {
+            text-align: center;
+            font-size: 40px;
+            line-height: 45px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        @media screen and (max-width: 1200px) {        
+            font-size: 30px;
+            line-height: 40px;
+        }
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+    &__form {
+        background-color: $main-gray;
+        border-radius: 8px;
+        padding: 80px 60px;
+        box-sizing: border-box;
+        @media screen and (max-width: 1200px) {
+            width: 50%;
+            padding: 60px 40px;
+        }
+        @media screen and (max-width: 1000px) {
+           width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            padding: 15px 20px;
+        }
+    }
+    &__form__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 52px;
+        @media screen and (max-width: 1200px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        @media screen and (max-width: 1000px) {
+            text-align: center;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+    &__label {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        display: block;
+        @media screen and (max-width: 1200px) {
+            font-size: 16px;
+            line-height: 20px;;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    &__input {
+        width: 500px;
+        padding: 16px;
+        border-radius: 8px;
+        background-color: $main-black;
+        border: none;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: $main-white;
+        margin-top: 10px;
+        margin-bottom: 22px;
+        @media screen and (max-width: 1200px) {
+            width: 100%;
+            padding: 10px;
+        }
+        &::placeholder {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    &__button {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 15px 45px;
+        border: 1px solid $main-white;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: transparent;
+        color: $main-white;
+        margin-top: 34px;
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            font-size: 14px;
+            line-height: 14px;
+            padding: 10px 25px;
+        }
+    }
+}
