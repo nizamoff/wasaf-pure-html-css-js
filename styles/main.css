@@ -273,7 +273,7 @@
   width: 25px;
   height: 20px;
   position: absolute;
-  background-image: url("../../icons/britain-flag.svg");
+  background-image: url("../images/icons/britain-flag.svg");
   background-size: cover;
   background-repeat: no-repeat;
   right: 10px;
@@ -300,7 +300,7 @@
   width: 25px;
   height: 20px;
   position: absolute;
-  background-image: url("../../icons/uzbek-flag.svg");
+  background-image: url("../images/icons/uzbek-flag.svg");
   background-size: cover;
   background-repeat: no-repeat;
   right: 10px;
@@ -323,7 +323,7 @@
   width: 25px;
   height: 20px;
   position: absolute;
-  background-image: url("../../icons/russian-flag.svg");
+  background-image: url("../images/icons/russian-flag.svg");
   background-size: cover;
   background-repeat: no-repeat;
   right: 10px;
@@ -569,7 +569,7 @@
 
 .services__item:nth-child(1)::before {
   content: '';
-  background-image: url("../../icons/ux-ui-icon.svg");
+  background-image: url("../images/icons/ux-ui-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -598,7 +598,7 @@
 
 .services__item:nth-child(2)::before {
   content: '';
-  background-image: url("../../icons/seo-services-icon.svg");
+  background-image: url("../images/icons/seo-services-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -627,7 +627,7 @@
 
 .services__item:nth-child(3)::before {
   content: '';
-  background-image: url("../../icons/mobile-icon.svg");
+  background-image: url("../images/icons/mobile-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -656,7 +656,7 @@
 
 .services__item:nth-child(4)::before {
   content: '';
-  background-image: url("../../icons/consulting-icon.svg");
+  background-image: url("../images/icons/consulting-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -685,7 +685,7 @@
 
 .services__item:nth-child(5)::before {
   content: '';
-  background-image: url("../../icons/web-dev-icon.svg");
+  background-image: url("../images/icons/web-dev-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -714,7 +714,7 @@
 
 .services__item:nth-child(6)::before {
   content: '';
-  background-image: url("../../icons/software-icon.svg");
+  background-image: url("../images/icons/software-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -1783,7 +1783,7 @@
 .footer__location::before {
   content: '';
   position: absolute;
-  background-image: url("../../icons/location.svg");
+  background-image: url("../images/icons/location.svg");
   width: 35px;
   height: 35px;
   background-size: cover;
@@ -1859,7 +1859,7 @@
 .footer__mail::before {
   content: '';
   position: absolute;
-  background-image: url("../../icons/at.svg");
+  background-image: url("../images/icons/at.svg");
   width: 35px;
   height: 35px;
   background-size: cover;
@@ -1935,7 +1935,7 @@
 .footer__phone::before {
   content: '';
   position: absolute;
-  background-image: url("../../icons/phone.svg");
+  background-image: url("../images/icons/phone.svg");
   width: 35px;
   height: 35px;
   background-size: cover;

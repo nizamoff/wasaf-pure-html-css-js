@@ -1,13 +1,13 @@
 @import "normalize";
 @import "variables";
-@import "blocks/header";
-@import "blocks/hero";
-@import "blocks/services";
-@import "blocks/results";
-@import "blocks/portfolio";
-@import "blocks/partners";
-@import "blocks/contact";
-@import "blocks/footer";
+@import "header";
+@import "hero";
+@import "services";
+@import "results";
+@import "portfolio";
+@import "partners";
+@import "contact";
+@import "footer";
 
 html {
     scroll-behavior: smooth;
